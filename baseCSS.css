@@ -1,0 +1,171 @@
+body {
+	font-family: Arial;
+}
+#horario{
+	margin: auto;
+	max-width: 960px;
+}
+.tiempo-contenedor{
+	max-width: 280px;
+	float: left;
+	position: relative;
+	margin: 0 20px;
+}
+.tiempo-contenedor h3{
+	text-align: center;
+	font-size: 2em;
+}
+
+.line{
+	
+	padding-top: 5px;
+	float: left;
+}
+.circulo {
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    text-align: center;
+    float: left;
+}
+
+.inner-text{
+	padding-top: 40px;
+	text-transform: uppercase;
+	font-size: .8em;
+	font-weight: 800;
+	color: #fff;
+	text-shadow:inset 0px 2px 3px rgba(70,79,70,1);
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+}
+.arrow-left {
+	background-color: transparent;
+	width: 0; 
+	height: 0; 
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent; 
+	margin-left: -15px;
+	margin-top: 35px;
+	border-right:15px solid; 
+}
+.arrow-right {
+	background-color: transparent;
+	width: 0; 
+	height: 0; 
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent; 
+	margin-left: 20px;
+	margin-top: 35px;
+	border-left:15px solid; 
+}
+.rectangulo {
+    width: 20px;
+    height: 100px;
+    text-align: center;
+    float: left;
+    margin: 0 25px;
+}
+.hora{
+	float: left;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	padding-top: 45px;
+	width: 100px;
+	text-align: center;
+	font-weight: bolder;
+}
+
+/*****************Efectos de Color*********************/
+
+/*****  ROJO   *****/
+
+.color-rojo{
+    background-color: #C32726;
+}
+.color-rojo.arrow-left {
+	background-color: transparent;
+	border-right:15px solid #C32726; 
+}
+.color-rojo.arrow-right {
+	background-color: transparent;
+	border-left:15px solid #C32726; 
+}
+
+.hora.clr-rojo{
+    color: #C32726;
+}
+
+/*****  AZUL   *****/
+
+.color-azul{
+    background-color: #2654D0;
+}
+.color-azul.arrow-left {
+	background-color: transparent;
+	border-right:15px solid #2654D0; 
+}
+.color-azul.arrow-right {
+	background-color: transparent;
+	border-left:15px solid #2654D0; 
+}
+.hora.clr-azul{
+    color: #2654D0;
+}
+
+/*****  AMARILLO   *****/
+
+.color-amarillo{
+    background-color: #D0B81E;
+}
+.color-amarillo.arrow-left {
+	background-color: transparent;
+	border-right:15px solid #D0B81E; 
+}
+.color-amarillo.arrow-right {
+	background-color: transparent;
+	border-left:15px solid #D0B81E; 
+}
+
+.hora.clr-amarillo{
+    color: #D0B81E;
+}
+
+/*****  VERDE   *****/
+
+.color-verde{
+    background-color: #1ED097;
+}
+.color-verde.arrow-left {
+	background-color: transparent;
+	border-right:15px solid #1ED097; 
+}
+.color-verde.arrow-right {
+	background-color: transparent;
+	border-left:15px solid #1ED097; 
+}
+
+.hora.clr-verde{
+    color: #1ED097;
+}
+
+/*****  MORADO   *****/
+
+.color-morado{
+    background-color: #D01ECC;
+}
+.color-morado.arrow-left {
+	background-color: transparent;
+	border-right:15px solid #D01ECC; 
+}
+.color-morado.arrow-right {
+	background-color: transparent;
+	border-left:15px solid #D01ECC; 
+}
+
+.hora.clr-morado{
+    color: #D01ECC;
+}
