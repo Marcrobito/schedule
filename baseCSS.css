@@ -21,6 +21,12 @@ body {
 	padding-top: 5px;
 	float: left;
 }
+.line.derecha .circulo{
+	float: right;
+}
+.line.derecha .rectangulo{
+	float: right;
+}
 .circulo {
     width: 100px;
     height: 100px;
@@ -77,6 +83,10 @@ body {
 	width: 100px;
 	text-align: center;
 	font-weight: bolder;
+}
+.hora em{
+	text-transform: uppercase;
+	font-size: .8em;
 }
 
 /*****************Efectos de Color*********************/
@@ -168,4 +178,78 @@ body {
 
 .hora.clr-morado{
     color: #D01ECC;
+}
+
+@media only screen and (max-width: 480px) {
+
+	.tiempo-contenedor{
+		max-width: 220px;
+		float: left;
+		position: relative;
+		margin: 0 70px;
+	}
+	.line.derecha .circulo{
+		float: left;
+	}
+	.line.derecha .rectangulo{
+		float: left;
+	}
+	.circulo {
+	    width: 100px;
+	    height: 1.2em;
+	    -webkit-border-radius: 5px;
+	    -moz-border-radius: 5px;
+	    border-radius: 5px;
+	    text-align: center;
+    	float: left;
+    	background-color: #423f40;
+	}
+	.inner-text{
+		padding-top: 2px;
+		text-transform: uppercase;
+		font-size: .8em;
+		font-weight: 800;
+		color: #fff;
+	}
+
+	.rectangulo {
+	    width: 5px;
+	    height: 1.2em;
+	    text-align: center;
+	    float: left;
+	    margin: 0 7px;
+	    background-color: #423f40;
+	}
+
+	.arrow-right {
+		background-color: transparent;
+		width: 0; 
+		height: 0; 
+		border-top: 5px solid transparent;
+		border-bottom: 5px solid transparent; 
+		margin-left: 5px;
+		margin-top: 5px;
+		border-left:5px solid #423f40!important; 
+		z-index: 9999;
+	}
+	.arrow-left {
+		background-color: transparent;
+		width: 0; 
+		height: 0; 
+		border-top: 5px solid transparent;
+		border-bottom: 5px solid transparent; 
+		margin-left: -5px;
+		margin-top: 5px;
+		border-right:5px solid #423f40!important; 
+		z-index: 9999;
+	}
+	.hora{
+		text-transform: uppercase;
+		font-size: 1.2em;
+		padding-top: 0;
+		width: 0px;
+		text-align: center;
+		font-weight: bolder;
+		color:#423f40!important;
+	}
 }
